@@ -1,7 +1,7 @@
 from sklearn.datasets import make_regression
 from sklearn.linear_model import Lasso
 import pickle
-import os
+import os 
 
 X, y = make_regression(10000,n_features = 11)
 
